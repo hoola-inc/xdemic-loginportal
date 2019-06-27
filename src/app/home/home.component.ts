@@ -14,6 +14,6 @@ export class HomeComponent implements OnInit {
   }
 
   gotoAuthenticate() {
-    this.router.navigate(['/authenticate']);
+    this.router.navigate(['/claim']);
   }
 }
